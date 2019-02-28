@@ -1,4 +1,4 @@
-FROM debian:7-slim
+FROM debian:jessie
 
 # Git-ftp install
 RUN apt-get update && apt-get upgrade -y \
