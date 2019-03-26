@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:9
 
 # Git-ftp install
 RUN apt-get update && apt-get upgrade -y \
